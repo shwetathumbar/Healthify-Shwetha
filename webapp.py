@@ -4,7 +4,7 @@ import os
 import pandas as pd
 
 api = os.getenv('GOOGLE_API_KEY')
-genai.configure(api_key = api)
+genai.configure(api_key = AIzaSyCA2uu5GaTNoNUXeelsTv0G4rgzzjRL_Zs)
 model = genai.GenerativeModel('gemini-2.5-flash-lite')
 
 #lets create the UI
